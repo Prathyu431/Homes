@@ -1,0 +1,55 @@
+body{
+    font-family: calibri,sans-serif;
+    text-align: center;
+    background-image:linear-gradient(to right,red,yellow); 
+    }
+    header{
+      text-align:center;
+      background-image:linear-gradient(to right, white,brown) ;  
+        color:black;
+      padding:10px;
+      margin: 20px;
+      
+    }
+    
+    
+    p{
+      text-align:center;
+      color:black;
+      font-family: italic;
+      font-size: 25px;
+    }
+    img{
+       height: 300px;;
+       width:300px;
+       margin: 30px;
+      border-radius: 15px;
+    }
+    button{
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color:blue;
+        color:white;
+        margin: 20px 0px;
+    }
+    a{
+        padding: 5px 15px;
+        color:blueviolet(44, 132, 209);
+        font-size: 20px;
+        text-decoration: none; 
+        margin: 20px;
+    }
+    a:hover{
+        color: white;
+        text-underline-position: under;
+        background-color:purple;
+        
+    }
+    .pathu{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
